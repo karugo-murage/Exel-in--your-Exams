@@ -2,15 +2,6 @@
     background-color: rgb(218, 216, 216);
     font-family: 'Ubuntu';
 }
-.image{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-img{
-    height: 25rem;
-    width: 30rem;
-}
 /* .container{
    display: flex;
    flex-direction: column;
@@ -50,4 +41,25 @@ img{
 .data{
     border-left: 1px solid black;
     border-radius: 0px 5px 5px 0px;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+img{
+    margin-top: 5rem;
+    height: 30rem;
+    width: 30rem;
+}
+.message{
+    font-size: xx-large;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.share{
+    margin-bottom: 1rem;
+}
+li{
+    list-style: none;
 }
