@@ -28,3 +28,13 @@ electronics.addEventListener('click', function(){
 
 })
 
+const data = document.querySelector('.data')
+data.addEventListener('click', function(){
+    let unitImage = document.querySelector('.exams')
+    let mySrc = unitImage.getAttribute('src')
+    if (mySrc !== "Assets/images/datacom.jpg"){
+        unitImage.setAttribute('src', "Assets/images/datacom.jpg")
+    }
+
+})
+
