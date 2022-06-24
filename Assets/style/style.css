@@ -87,8 +87,12 @@ li{
     margin-left: 2rem;
 }
 .comment-input{
-    border: 1px solid grey;
+    border: 1px solid gray;
     padding: 0.5rem 1rem;
     margin-left: 2.5rem;
     cursor: auto;
+}
+.like-button{
+    border: 1px solid grey;
+    border-radius: 10px ;
 }
