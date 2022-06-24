@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(233, 230, 230);
+    background-color: rgb(218, 216, 216);
     font-family: 'Ubuntu';
 }
 img{
@@ -23,10 +23,15 @@ img{
 .units li {
     padding: 2rem;
     list-style: none;
-    background-color: grey;
+    background-color: rgb(172, 172, 172);
+    cursor: pointer;
 }
 .success{
     padding-top: 3rem ;
+    font-size: xx-large;
+    color: rgb(46, 45, 45);
+    font-style: italic;
+    font-family: vanity;
 }
 .ai{
     border-radius: 5px 0px 0px 5px;
