@@ -79,3 +79,16 @@ li{
     bottom: 0px;
     margin: 0rem;
 }
+.comment-button{
+    background-color: rgb(165, 164, 164);
+    padding: 0.5rem 1rem ;
+    border: 1px solid gray;
+    border-radius: 5px 0px 5px 0px;
+    margin-left: 2rem;
+}
+.comment-input{
+    border: 1px solid grey;
+    padding: 0.5rem 1rem;
+    margin-left: 2.5rem;
+    cursor: auto;
+}
