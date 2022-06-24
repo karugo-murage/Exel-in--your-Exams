@@ -41,11 +41,17 @@ body{
     border-left: 1px solid black;
     border-radius: 0px 5px 5px 0px;
 }
-.image{
+.imagecontainer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+.exams{
+    background-image: url(/Assets/images/ai.jpg) no-repeat;
+    height: 30rem;
+    width: 30rem;
+}
+
 img{
     margin-top: 5rem;
     height: 30rem;
