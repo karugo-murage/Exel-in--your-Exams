@@ -7,6 +7,7 @@ ai.addEventListener('click', function(){
     }
 
 })
+
 const calculus = document.querySelector('.calculus')
 calculus.addEventListener('click', function(){
     let unitImage = document.querySelector('.exams')
@@ -16,3 +17,14 @@ calculus.addEventListener('click', function(){
     }
 
 })
+
+const electronics = document.querySelector('.electronics')
+electronics.addEventListener('click', function(){
+    let unitImage = document.querySelector('.exams')
+    let mySrc = unitImage.getAttribute('src')
+    if (mySrc !== "Assets/images/electronics.jpg"){
+        unitImage.setAttribute('src', "Assets/images/digitalelec.jpg")
+    }
+
+})
+
