@@ -38,11 +38,18 @@ data.addEventListener('click', function(){
 
 })
 
-const post =document.querySelector('.comment-button')
-post.addEventListener('click', function(){
-    let input = document.getElementsByTagName("input")[0]
-    let comment =document.querySelector('#live-comments')
+// let post =document.querySelector('.comment-form')
+let post =document.getElementById('comment-form')
+let input = document.getElementsByTagName("input")[0]
+let comment =document.querySelector('#live-comments')
+function newElement(e){
+    e.preventDefault()
     let newElement = document.createElement("p")
     newElement.innerHTML = input.value ;
     comment.appendChild(newElement)
-})
+}
+// function submitComment(event){
+//     alert('Hello')
+//     event.preventDefault()
+// }
+post.addEventListener('submit', newElement )
