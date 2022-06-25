@@ -9,6 +9,8 @@ Excel-in-your-exams is a web based application that enables people to prepare ad
 
 Thus allowing for an iterative process that uses user feedback to enable other users prepare for their exam.
 
+The web application also provides motivational quotes to inspire the users to keep pushing on in their programming journey.
+
 https://karugo-murage.github.io/Exel-in--your-Exams/
 
  
@@ -23,7 +25,7 @@ https://karugo-murage.github.io/Exel-in--your-Exams/
 - Javascript
 - HTML5
 - API intergration
-- Switch to multiple categories via buttons
+- Switch to multiple exams via buttons
 - Responsive to variety of devices like mobile,tablet and PC
 
 ## Setup/Installation Instruction
@@ -56,6 +58,7 @@ https://karugo-murage.github.io/Exel-in--your-Exams/
 ## Known Bugs
 - The site is not as responsive enough for some devices.
 - The exam image loadtime is considerable big.
+- The API isn not responding once hosted in github.
 
 ## Technologies Used
 - HTML5
