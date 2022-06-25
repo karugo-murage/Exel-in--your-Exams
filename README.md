@@ -18,25 +18,29 @@ https://karugo-murage.github.io/Exel-in--your-Exams/
  
 ## Features
 
--Well Designed Interface(UI).
-
+-Well Designed Interface(UI)
 -intensive use of Vanilla css for design
--Javascript
--HTML5
--API intergration
--Switch to multiple categories via buttons
--Responsive to variety of devices like mobile,tablet and PC
+- Javascript
+- HTML5
+- API intergration
+- Switch to multiple categories via buttons
+- Responsive to variety of devices like mobile,tablet and PC
 
 ## Setup/Installation Instruction
 
 ### Requirements
 
--chrome browser/any other browser
--any type of computer(phone of laptop)
--Internet connection
--Navigate to the git repository
--clone the repo to local machine
--run it on VScode , on live server
+- chrome browser/any other browser
+
+- any type of computer(phone of laptop)
+
+- Internet connection
+
+- Navigate to the git repository
+
+- clone the repo to local machine
+
+- run it on VScode , on live server
 
 ### Future Improvements
 
