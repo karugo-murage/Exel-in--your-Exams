@@ -16,13 +16,34 @@ https://karugo-murage.github.io/Exel-in--your-Exams/
 
 <img src="./Assets/images/succedexams.png" width="900px" height="440px">  
  
+## Features
 
-## Setup/Installation Requirements
+-Well Designed Interface(UI).
+-intensive use of Vanilla css for design
+-Javascript
+-HTML5
+-API intergration
+-Switch to multiple categories via buttons
+-Responsive to variety of devices like mobile,tablet and PC
 
-- Open terminal (Ctrl+Alt+T)
-- Copy the url https://karugo-murage.github.io/Exel-in--your-Exams/
-- cd delaniStudios
-- code . depending on the text editor of your choosing.
+## Setup/Installation Instruction
+
+### Requirements
+
+-chrome browser/any other browser
+-any type of computer(phone of laptop)
+-Internet connection
+-Navigate to the git repository
+-clone the repo to local machine
+-run it on VScode , on live server
+
+### Future Improvements
+
+-Add user navigation to course
+-Incorporate Reactjs
+-Incorporate Ruby on Rails
+-Fine tune Responsivess
+
 
 ## Known Bugs
 - The site is not as responsive enough for some devices.
