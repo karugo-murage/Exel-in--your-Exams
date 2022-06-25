@@ -2,11 +2,11 @@
     background-color: rgb(218, 216, 216);
     font-family: 'Ubuntu';
 }
-body{
+/* body{
     height: 100vh;
     padding: 0rem;
     margin: 0rem;
-}
+} */
 .NAV{
     display: flex;
     justify-content: space-around;
@@ -86,14 +86,10 @@ li{
     border-radius: 10px ;
 }
 .footer{
-    display: flex;
-    font-style: italic;
-    flex-direction: row;
-    justify-content: center;
+    text-align: center;
     padding: 1rem;
     background-color: rgb(158, 157, 157);
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    margin: 0rem;
+    /* margin-bottom: 0rem;
+    margin-top: 5rem; */
+    
 }

@@ -48,8 +48,22 @@ function newElement(e){
     newElement.innerHTML = input.value ;
     comment.appendChild(newElement)
 }
-// function submitComment(event){
-//     alert('Hello')
-//     event.preventDefault()
-// }
+
 post.addEventListener('submit', newElement )
+
+//API
+let display =document.getElementById('display-quote')
+let author = document.getElementById('author')
+function api(){
+    let quote = fetch('http://quotes.stormconsultancy.co.uk/random.json');
+    quote.then(response=>response.json()).then(data => {
+    //let liveQuote =data.quote;
+    // var displayed =data.quote
+    console.log(data.author); 
+    display.innerHTML = `${data.quote}`
+    author.innerHTML= `${data.author}`
+    })
+    .catch(err => console.error(err));
+}
+
+ console.log(api())
