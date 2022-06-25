@@ -58,7 +58,7 @@ https://karugo-murage.github.io/Exel-in--your-Exams/
 ## Known Bugs
 - The site is not as responsive enough for some devices.
 - The exam image loadtime is considerable big.
-- The API isn not responding once hosted in github.
+- The API is not responding once hosted in github.
 
 ## Technologies Used
 - HTML5
