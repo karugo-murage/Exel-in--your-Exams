@@ -44,13 +44,13 @@ https://karugo-murage.github.io/Exel-in--your-Exams/
 
 ### Future Improvements
 
--Add user navigation to course
+- Add user navigation to course
 
--Incorporate Reactjs
+- Incorporate Reactjs
 
--Incorporate Ruby on Rails
+- Incorporate Ruby on Rails
 
--Fine tune Responsivess
+- Fine tune Responsivess
 
 
 ## Known Bugs
@@ -69,7 +69,7 @@ If you have any questions or contributions, please reach me at.
 
 - gmail- giddykarugo@gmail.com
 
--contact -0793003234
+- contact -0793003234
 
 - slack- Karugo-Murage
 

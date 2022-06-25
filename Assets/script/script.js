@@ -38,3 +38,11 @@ data.addEventListener('click', function(){
 
 })
 
+const post =document.querySelector('.comment-button')
+post.addEventListener('click', function(){
+    let input = document.getElementsByTagName("input")[0]
+    let comment =document.querySelector('#live-comments')
+    let newElement = document.createElement("p")
+    newElement.innerHTML = input.value ;
+    comment.appendChild(newElement)
+})
