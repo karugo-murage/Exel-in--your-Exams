@@ -38,7 +38,6 @@ data.addEventListener('click', function(){
 
 })
 
-// let post =document.querySelector('.comment-form')
 let post =document.getElementById('comment-form')
 let input = document.getElementsByTagName("input")[0]
 let comment =document.querySelector('#live-comments')
@@ -57,13 +56,12 @@ let author = document.getElementById('author')
 function api(){
     let quote = fetch('http://quotes.stormconsultancy.co.uk/random.json');
     quote.then(response=>response.json()).then(data => {
-    //let liveQuote =data.quote;
-    // var displayed =data.quote
     console.log(data.author); 
     display.innerHTML = `${data.quote}`
     author.innerHTML= `${data.author}`
     })
     .catch(err => console.error(err));
 }
-
+document.getElementById('live-comments').style.width="45rem" ;
+display.style.width="45rem" ;
  console.log(api())

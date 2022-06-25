@@ -14,7 +14,7 @@ https://karugo-murage.github.io/Exel-in--your-Exams/
  
 ## Screenshot
 
-<img src="./Assets/images/succedexams.png" width="900px" height="440px">  
+<img src="./Assets/images/SUCCESS.png" width="900px" height="440px">  
  
 ## Features
 

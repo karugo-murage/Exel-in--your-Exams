@@ -2,11 +2,11 @@
     background-color: rgb(218, 216, 216);
     font-family: 'Ubuntu';
 }
-/* body{
+ body{
     height: 100vh;
     padding: 0rem;
     margin: 0rem;
-} */
+} 
 .NAV{
     display: flex;
     justify-content: space-around;
@@ -46,11 +46,6 @@
     flex-direction: row;
     justify-content: space-around;
 }
-.exams{
-    background-image: url(/Assets/images/ai.jpg) no-repeat;
-    height: 30rem;
-    width: 30rem;
-}
 
 img{
     margin-top: 5rem;
@@ -60,7 +55,7 @@ img{
 .message{
     font-size: xx-large;
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 .share{
     margin-bottom: 1rem;
@@ -89,7 +84,11 @@ li{
     text-align: center;
     padding: 1rem;
     background-color: rgb(158, 157, 157);
-    /* margin-bottom: 0rem;
-    margin-top: 5rem; */
     
+}
+.container{
+    height: 92vh; 
+}
+.display-quote{
+    width: 20rem;
 }
